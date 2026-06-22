@@ -254,6 +254,7 @@ Docker hace:
 2. Construye las imágenes `proyecto-web1` y `proyecto-web2`.
 3. Crea la red `proyecto_webnet`.
 4. Levanta los 4 contenedores en orden, respetando `depends_on`.
+
 ![Despliegue exitoso con docker compose up](img/dockercomposeUp.PNG)
  
 ### Verificación con `docker ps`
@@ -383,7 +384,7 @@ El `SERVER_ADDR` alterna perfectamente entre **172.18.0.3** y **172.18.0.4**, co
 docker logs haproxy
 ```
  
-![Logs de HAProxy](img/logs_HaProxy.PNG)
+![Logs de HAProxy](img/logsHaProxy.PNG)
  
 En los logs se puede ver:
 - La versión de HAProxy (3.4.0).
